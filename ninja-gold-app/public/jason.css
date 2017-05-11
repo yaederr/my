@@ -1,0 +1,41 @@
+*{
+	text-align: center;
+	margin: auto;
+}
+	#wrapper{
+		width: 950px;
+		text-align: center;
+	}
+		table{
+			border: 2px solid black;
+		}
+			td{
+			padding: 10px;
+			}
+		button{
+			height: 30px;
+			width: 133px;
+			margin-bottom: 4px;
+
+		}
+		#log{
+			width: 355px;
+			border: 2px solid black;
+			min-height: 55px;
+			max-height: 150px;
+		}
+			.log{
+				display: block;
+				padding: 3px;
+			}
+			#user_status, #quests{
+				border: 2px solid black;
+				width: 300px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				padding: 10px;
+				font-size: 1.9em;
+			}
+				#name, #count{
+					display: block;
+				}

@@ -1,0 +1,14 @@
+<p>Welcome to ninja gold</p>
+<%= link_to 'make a new game', newgame_path %>
+<table>
+  <tr>
+    <th>Game</th>
+    <th>Play</th>
+  </tr>
+<% @users.each do |user| %>
+  <tr>
+    <td>Game Number <%= user.id %></td>
+    <td><%= link_to 'game link', user %></td>
+  </tr>
+<% end %>
+</table>

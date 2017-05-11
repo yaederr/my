@@ -1,0 +1,13 @@
+<div id="user_status">
+	<span id="name"><%=@user.name %></span>
+	<span id="count"><%=@user.gold%></span>
+</div>
+<div id="quests">
+	<button id="hunt">Hunt</button>
+	<button id="farm">Farm</button>
+	<button id="mine">Mine</button>
+	<button id="gamble">Gamble</button>
+</div>
+<div id="log" style="overflow:-moz-scrollbars-vertical;overflow-y:auto;"></div>
+<button onclick="go_back_to_index()" class="back_button">Back</button>
+<script type="text/javascript" src="/ninjagold.js"></script>

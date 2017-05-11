@@ -1,0 +1,10 @@
+<div id="wrapper">
+	<h2>Create a Ninja</h2>
+	<div id="hint"></div>
+	<%= form_for(@user) do |f|%>
+    <%= f.label :name, 'name of your ninja'%>
+    <%= f.text_field :name %>
+    <%= f.submit 'start'%>
+	<% end %>
+	<button onclick="go_back_to_index()" class="back_button">Back</button>
+</div>
