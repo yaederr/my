@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding:0;
+	font-size: 20px;
+}
+	#wrapper{
+		width:900px;
+		margin:auto;
+	}
+    #links{
+        padding:50px;
+    }
+    #specs, #witnesses{
+    	padding:10px;
+    }
+    .witness{
+    	padding-left:10px;
+    }
+    #leftarrow{
+        padding:29px 91px 29px 91px;
+        background-color:#00CC99;
+        margin-right: 30px;
+    }
+    #rightarrow{
+        margin-left: 30px;
+        padding: 29px 91px 29px 91px;
+        background-color: red;
+    } 
