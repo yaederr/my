@@ -1,0 +1,69 @@
+*{
+	margin:0;
+}
+	#wrapper{
+		width:990px;
+		min-width: 555px;
+		margin-left:50px;
+		border: 2px solid black;
+	}
+		#functions{
+			border-bottom: 2px solid black;
+		}
+			#functions>div{
+				vertical-align: top;
+				display: inline-block;
+				text-align: center;
+			}
+			#left_hand{
+				padding-left: 15px;
+				padding-right: 15px;
+			}
+			#left_hand>*{
+				width: 54px;
+				display: inline-block;
+			}
+			#right_hand{
+				/*padding-left: 40%;*/
+			}
+				#right_hand>div{
+					display: inline-block;
+					vertical-align: top;
+				}
+				#right_hand>#select_logout{
+					width: 80px;
+				}
+				#right_hand>#select_upload{
+					width:100px;
+				}
+		#tree, #essay{
+			display: inline-block;
+			overflow:-moz-scrollbars-vertical;
+			overflow-y:auto;
+			max-height: 666px;
+			min-height: 666px;
+		}
+		#tree{
+			border-right: 1px solid black;
+			width: 220px;
+		}
+			#tree>div{
+				margin:0;padding:0;
+			}
+			#tree>div>a{
+				display: block;
+			}
+		#essay{
+			width: 755px;
+		}
+			#essay>div{
+				padding: 20px;
+			}
+				#essay>div>.uri_display{
+					width: 76%;
+					font-size: 18px;
+				}
+			#essay>#registration>form>label, #essay>#login_area>form>label{
+				display: block;
+				padding: 5px;
+			}
