@@ -1,0 +1,22 @@
+*{
+    margin:0;
+	padding:0;
+}
+    #word{
+        font-size: 30px;
+    }
+	#wrapper{
+	   width:400px;
+        margin:auto;
+        padding:10px;
+        
+    }
+
+    #myform input{
+        font-size: 20px;
+        
+    }
+
+	#generated{
+		font-size: 30px;
+	}

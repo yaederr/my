@@ -1,0 +1,101 @@
+*{
+	margin:0;
+	padding:0;
+}
+#wrapper{
+    width:900px;
+    margin:auto;
+}
+	#status{
+		background-color:#F3F781;
+		max-height: 100px;
+		overflow: hidden;
+	}
+		#status p{
+			display: inline-block;
+			margin-right:100px;
+			position: relative;
+			top:10px;
+			left:30px;
+			font-size: 20px;
+			max-width: 300px;
+		}
+		#logout{
+			position: relative;
+			left:350px;
+
+		}
+
+		#status img{
+			height: 100px;
+			border-right:2px solid white;
+			vertical-align: top;
+		}
+
+	.issue_text{
+		color:red;
+		font-size: 20px;
+	}
+	h2{
+		padding:12px;
+	}
+   div{
+       margin:12px;
+   }
+    #login_area{
+    	border:2px solid black;
+    	width: 300px;
+    	margin:auto;
+    }
+    	#login_area p{
+    		color:red;
+    		font-size: 22px;
+
+    	}
+	    #login_area input{
+	        height:23px;
+	        margin-left: 10px;
+
+	    }
+		#login_area label{
+			display: block;
+			text-align: left;
+			padding: 10px 0px 5px 9px;
+		}
+		#login_area a{
+				padding-left:12px;
+		}
+	#registration_form form{
+		padding:19px 0px 0px 6px;
+	}
+       #registration_form input{
+           height:23px;
+       }
+       #forms{
+	border: 2px solid black;
+	margin:auto;
+	padding:0;
+	max-width: 900px;
+
+}
+#forms input{
+	background-color:#04B431;
+	font-size:20px;
+	width:180px;
+}
+.activities{
+	display:inline-block;
+	width:180px;
+	vertical-align:top;
+}
+	.activity_description{
+	padding: 0px 10px 0px 10px;
+}
+	#log{
+		max-height:100px;
+		visibility:shown;
+		border:2px solid black;
+		width:900px;
+		margin:auto;
+		margin-top:10px;
+	}

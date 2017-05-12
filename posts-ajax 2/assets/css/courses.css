@@ -1,0 +1,35 @@
+*{
+	margin:0;
+	padding:3px;
+}
+	#wrapper{
+		width:900px;
+		margin-left:50px;
+		border: 2px solid black;	
+	}
+	.blocks {
+	    display: inline-block;
+	    width: 100%;
+	}
+	.block {
+	    float: left;
+	    background: black;
+	    color: white;
+	    width: 200px;
+	    height: 200px;
+	    margin: 10px;
+	    text-align: center;
+	    vertical-align: middle;
+	    line-height: 100px;
+	}
+	.block p{
+		line-height: 1.5em;
+	}
+
+	.block form textarea{
+		line-height: 1.5em;
+		color:black;
+	}
+	.block .modal-title{
+		color:black;
+	}	
